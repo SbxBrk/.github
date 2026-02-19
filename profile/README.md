@@ -6,6 +6,8 @@
 
 For the full details, see the paper: [SbxBrk](https://mschloegel.me/paper/bars2025sbxbrk.pdf).
 
+<br clear="right"/>
+
 ### Repositories
 
 | Repository | Description |
