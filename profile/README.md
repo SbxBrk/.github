@@ -8,6 +8,27 @@ For the full details, see the paper: [SbxBrk](https://mschloegel.me/paper/bars20
 
 <br clear="right"/>
 
+### Citation
+If you use SbxBrk in your research, please cite our paper:
+```bibtex
+@inproceedings{10.1145/3719027.3765027,
+  author = {Bars, Nils and Bernhard, Lukas and Schloegel, Moritz and Holz, Thorsten},
+  title = {Empirical Security Analysis of Software-based Fault Isolation through Controlled Fault Injection},
+  year = {2025},
+  isbn = {9798400715259},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3719027.3765027},
+  doi = {10.1145/3719027.3765027},
+  booktitle = {Proceedings of the 2025 ACM SIGSAC Conference on Computer and Communications Security},
+  pages = {2639–2652},
+  numpages = {14},
+  keywords = {browser security, fuzzing, software-based fault isolation},
+  location = {Taipei, Taiwan},
+  series = {CCS '25}
+}
+```
+
 ### Repositories
 
 | Repository | Description |
@@ -24,7 +45,7 @@ For the full details, see the paper: [SbxBrk](https://mschloegel.me/paper/bars20
 The entire toolchain runs inside a Docker container (Ubuntu 24.04, x86_64). See the [main repository](https://github.com/SbxBrk/SbxBrk) for full setup and usage instructions.
 
 ```bash
-git clone --recurse-submodules git@github.com:SbxBrk/SbxBrk.git
+git clone --recurse-submodules https://github.com/SbxBrk/SbxBrk.git
 cd SbxBrk
 ./env/build.sh   # build the Docker environment
 ./env/start.sh   # enter the container
