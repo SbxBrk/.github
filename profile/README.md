@@ -1,3 +1,5 @@
+<p><a href="https://mschloegel.me/paper/bars2025sbxbrk.pdf"><img alt="SbxBrk Paper" align="right" width="320" src="paper_preview.png"></a></p>
+
 ## SbxBrk
 
 **SbxBrk** is an academic prototype for fuzzing the [V8 heap sandbox](https://v8.dev/blog/sandbox) through controlled fault injection. Built on [LibAFL](https://github.com/AFLplusplus/LibAFL), it instruments all memory loads crossing the security boundary between trusted and untrusted domains and injects faults via bitmasks before data from the heap sandbox reaches trusted code. Using SbxBrk, we discovered **19 security bugs** in V8's heap sandbox.
